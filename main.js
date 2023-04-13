@@ -1,6 +1,8 @@
 const form = document.querySelector('form');
 const qrCodeDiv = document.querySelector('#qrcode');
 
+const addBotaoSalvar = document.getElementById('salvar');
+
 form.addEventListener('submit', (event) => {
     event.preventDefault();
 
@@ -9,6 +11,8 @@ form.addEventListener('submit', (event) => {
     if (link) {
         qrCodeDiv.innerHTML = '';
         new QRCode(qrCodeDiv, link);
+
+        addBotaoSalvar.className += " d-inline";
     }
 });
 
