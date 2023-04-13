@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.fonteRaleway100 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+label {
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    width: 350px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#qrcode {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#salvar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
