@@ -34,7 +34,7 @@ input {
 }
 
 #qrcode {
-    max-width: 270px;
+    max-width: 260px;
     margin: auto;
     display: flex;
     flex-direction: column;

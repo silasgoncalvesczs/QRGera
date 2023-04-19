@@ -2,17 +2,20 @@ const form = document.querySelector('form');
 const qrCodeDiv = document.querySelector('#qrcode');
 
 const addBotaoSalvar = document.getElementById('salvar');
+const divqrcode = document.getElementById('qrcode');
 
 form.addEventListener('submit', (event) => {
-    event.preventDefault();
 
+    event.preventDefault();
+    
     const link = document.querySelector('#link').value;
 
     if (link) {
         qrCodeDiv.innerHTML = '';
         new QRCode(qrCodeDiv, link);
-
+        
         addBotaoSalvar.className += " d-inline";
+        divqrcode.className += " p-1 bg-light"
     }
 });
 
