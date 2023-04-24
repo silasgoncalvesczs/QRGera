@@ -1,22 +1,22 @@
 # QRCode.js
-QRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM.
-QRCode.js has no dependencies.
+QRCode.js é uma biblioteca javascript para fazer QRCode. QRCode.js suporta cross-browser com HTML5 Canvas e tag de tabela em DOM.
+QRCode.js não tem dependências
 
 ## Basic Usages
 ```
 <div id="qrcode"></div>
 <script type="text/javascript">
-new QRCode(document.getElementById("qrcode"), "http://jindo.dev.naver.com/collie");
+new QRCode(document.getElementById("qrcode"), "https://github.com/silasgoncalvesczs/QRGera");
 </script>
 ```
 
-or with some options
+ou com algumas opções
 
 ```
 <div id="qrcode"></div>
 <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
-	text: "http://jindo.dev.naver.com/collie",
+	text: "https://github.com/silasgoncalvesczs/QRGera",
 	width: 128,
 	height: 128,
 	colorDark : "#000000",
@@ -26,7 +26,7 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 </script>
 ```
 
-and you can use some methods
+e você pode usar alguns métodos
 
 ```
 qrcode.clear(); // clear the code.
@@ -38,9 +38,3 @@ IE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, 
 
 ## License
 MIT License
-
-## Contact
-twitter @davidshimjs
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/davidshimjs/qrcodejs/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
