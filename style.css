@@ -100,13 +100,43 @@ input:focus {
     line-height: 0;
 }
 
-#salvar {
+/* #salvar {
     display: none;
     width: 100%;
     border-radius: 14px;
     padding: 12px;
     font-weight: 700;
     margin-top: 10px;
+} */
+
+/* Novos estilos para os botões de ação */
+.actions-container {
+    display: flex;
+    /* Coloca os botões lado a lado */
+    gap: 10px;
+    /* Espaço entre os botões */
+    margin-top: 20px;
+    width: 100%;
+}
+
+.action-btn {
+    flex: 1;
+    /* Faz os botões ocuparem o mesmo espaço */
+    border-radius: 14px !important;
+    padding: 12px !important;
+    font-weight: 700 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/* Estilo específico para o botão de compartilhar para diferenciar */
+.btn-info {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff) !important;
+    border: none !important;
+    color: white !important;
 }
 
 footer {
